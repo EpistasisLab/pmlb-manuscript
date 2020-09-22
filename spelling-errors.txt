@@ -23,7 +23,7 @@ OpenML
 PMLB
 Praneel
 pre
-trang
+Trang
 unmaintained
 Weixuan
 weixuanfu

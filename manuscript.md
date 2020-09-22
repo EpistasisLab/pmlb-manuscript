@@ -5,12 +5,12 @@ author-meta:
 - Joseph D. Romano
 - Daniel Goldberg
 - Praneel Chakraborty
-- Natasha Ray
+- Natasha L. Ray
 - Weixuan Fu
 - Jason H. Moore
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-11'
+date-meta: '2020-09-22'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -29,9 +29,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="PMLB v1.0: an open source dataset collection for benchmarking machine learning methods" />
 
-  <meta name="dc.date" content="2020-09-11" />
+  <meta name="dc.date" content="2020-09-22" />
 
-  <meta name="citation_publication_date" content="2020-09-11" />
+  <meta name="citation_publication_date" content="2020-09-22" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -87,11 +87,11 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@None" />
 
-  <meta name="citation_author" content="Natasha Ray" />
+  <meta name="citation_author" content="Natasha L. Ray" />
 
-  <meta name="citation_author_institution" content="None" />
+  <meta name="citation_author_institution" content="Princeton Day School, Princeton, NJ 08540" />
 
-  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author_orcid" content="0000-0001-6883-4624" />
 
   <meta name="twitter:creator" content="@None" />
 
@@ -123,11 +123,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/69ab204e2eee46f0f6812a9364936eb2d9ee86a2/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/a96418fb338de4c893895cc74d4b133c5c2ccb61/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/69ab204e2eee46f0f6812a9364936eb2d9ee86a2/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/a96418fb338de4c893895cc74d4b133c5c2ccb61/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/69ab204e2eee46f0f6812a9364936eb2d9ee86a2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/a96418fb338de4c893895cc74d4b133c5c2ccb61/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -159,10 +159,10 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/69ab204e2eee46f0f6812a9364936eb2d9ee86a2/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/a96418fb338de4c893895cc74d4b133c5c2ccb61/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@69ab204](https://github.com/EpistasisLab/pmlb-manuscript/tree/69ab204e2eee46f0f6812a9364936eb2d9ee86a2)
-on September 11, 2020.
+from [EpistasisLab/pmlb-manuscript@a96418f](https://github.com/EpistasisLab/pmlb-manuscript/tree/a96418fb338de4c893895cc74d4b133c5c2ccb61)
+on September 22, 2020.
 </em></small>
 
 ## Authors
@@ -212,9 +212,11 @@ on September 11, 2020.
      None
   </small>
 
-+ **Natasha Ray**<br><br>
++ **Natasha L. Ray**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-6883-4624](https://orcid.org/0000-0001-6883-4624)<br>
   <small>
-     None
+     Princeton Day School, Princeton, NJ 08540
   </small>
 
 + **Weixuan Fu**<br>
