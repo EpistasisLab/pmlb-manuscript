@@ -3,7 +3,7 @@ author-meta:
 - Trang T. Le
 - William La Cava
 - Joseph D. Romano
-- Daniel Goldberg
+- Daniel J. Goldberg
 - Praneel Chakraborty
 - Natasha L. Ray
 - Weixuan Fu
@@ -71,11 +71,11 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@jdromano2" />
 
-  <meta name="citation_author" content="Daniel Goldberg" />
+  <meta name="citation_author" content="Daniel J. Goldberg" />
 
-  <meta name="citation_author_institution" content="None" />
+  <meta name="citation_author_institution" content="Department of Computer Science &amp; Engineering, Washington University in St. Louis, St. Louis, MO 63130" />
 
-  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author_orcid" content="0000-0003-4173-9867" />
 
   <meta name="twitter:creator" content="@None" />
 
@@ -123,11 +123,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/a96418fb338de4c893895cc74d4b133c5c2ccb61/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/1908989396f41cdf005a126824a51aabc32fd618/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/a96418fb338de4c893895cc74d4b133c5c2ccb61/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/1908989396f41cdf005a126824a51aabc32fd618/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/a96418fb338de4c893895cc74d4b133c5c2ccb61/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/1908989396f41cdf005a126824a51aabc32fd618/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -159,9 +159,9 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/a96418fb338de4c893895cc74d4b133c5c2ccb61/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/1908989396f41cdf005a126824a51aabc32fd618/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@a96418f](https://github.com/EpistasisLab/pmlb-manuscript/tree/a96418fb338de4c893895cc74d4b133c5c2ccb61)
+from [EpistasisLab/pmlb-manuscript@1908989](https://github.com/EpistasisLab/pmlb-manuscript/tree/1908989396f41cdf005a126824a51aabc32fd618)
 on September 22, 2020.
 </em></small>
 
@@ -202,9 +202,13 @@ on September 22, 2020.
      Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104; Center of Excellence in Environmental Toxicology, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
-+ **Daniel Goldberg**<br><br>
++ **Daniel J. Goldberg**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-4173-9867](https://orcid.org/0000-0003-4173-9867)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [daniel0710goldberg](https://github.com/daniel0710goldberg)<br>
   <small>
-     None
+     Department of Computer Science & Engineering, Washington University in St. Louis, St. Louis, MO 63130
   </small>
 
 + **Praneel Chakraborty**<br><br>
