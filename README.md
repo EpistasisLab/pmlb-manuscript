@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/EpistasisLab/pmlb-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://EpistasisLab.github.io/pmlb-manuscript/>.
-The permalink for this webpage version is <https://EpistasisLab.github.io/pmlb-manuscript/v/a96418fb338de4c893895cc74d4b133c5c2ccb61/>.
+The permalink for this webpage version is <https://EpistasisLab.github.io/pmlb-manuscript/v/1908989396f41cdf005a126824a51aabc32fd618/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://EpistasisLab.github.io/pmlb-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`a96418fb338de4c893895cc74d4b133c5c2ccb61`](https://github.com/EpistasisLab/pmlb-manuscript/commit/a96418fb338de4c893895cc74d4b133c5c2ccb61).
+[`1908989396f41cdf005a126824a51aabc32fd618`](https://github.com/EpistasisLab/pmlb-manuscript/commit/1908989396f41cdf005a126824a51aabc32fd618).
