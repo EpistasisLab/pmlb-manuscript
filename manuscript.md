@@ -123,11 +123,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/1908989396f41cdf005a126824a51aabc32fd618/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/c38a2cf0e20126d5e8734aecba667ff2277ebba6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/1908989396f41cdf005a126824a51aabc32fd618/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/c38a2cf0e20126d5e8734aecba667ff2277ebba6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/1908989396f41cdf005a126824a51aabc32fd618/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/c38a2cf0e20126d5e8734aecba667ff2277ebba6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -159,9 +159,9 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/1908989396f41cdf005a126824a51aabc32fd618/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/c38a2cf0e20126d5e8734aecba667ff2277ebba6/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@1908989](https://github.com/EpistasisLab/pmlb-manuscript/tree/1908989396f41cdf005a126824a51aabc32fd618)
+from [EpistasisLab/pmlb-manuscript@c38a2cf](https://github.com/EpistasisLab/pmlb-manuscript/tree/c38a2cf0e20126d5e8734aecba667ff2277ebba6)
 on September 22, 2020.
 </em></small>
 
@@ -248,23 +248,26 @@ on September 22, 2020.
 
 
 
-## Abstract {.page_break_before}
+## Summary
+
+PMLB (Penn Machine Learning Benchmark) is an open source repository containing a curated collection of datasets for evaluating and comparing machine learning (ML) algorithms.
+Compiled from a broad range of existing ML benchmark collection, PMLB unified over 150 publicly available datasets from large repositories such as Kaggle and OpenML, enabling systematic assessment of different ML methods.
+These datasets cover a range of applications, from binary/multi-class classification to regression problems with combinations of categorical and continuous features.
+PMLB have an R interface (pmlbr) and a Python interface (pmlb) with detailed documentation that allow the user to access the datasets with a simple `fetch_data` function.
 
 
-
-
-## Introduction
+## Statement of need
 
 Benchmarking is a standard practice to illustrate the strengths and weaknesses of algorithms regarding different problem characteristics.
-In machine learning (ML), benchmarking often involves assessing the performance of the ML models, namely how well they predict labels for new samples (supervised learning) or detect patterns among samples with no pre-existing labels (unsupervised learning) in a group of benchmark datasets.
-Compiled from a broad range of existing ML benchmark collection, the Penn Machine Learning Benchmark (PMLB) unified publicly available datasets from large repositories such as Kaggle and OpenML, enabling systematic assessment of different ML methods.
+In machine learning, benchmarking often involves assessing the performance of the ML models, namely how well they predict labels for new samples (supervised learning) or detect patterns among samples with no pre-existing labels (unsupervised learning) in a group of benchmark datasets.
+PMLB provides this suite of datasets as well as the framework for conducting automatic evaluation of the different algorithms, i.e., how they perform on some or all of the datasets. 
 
 The first release of PMLB received overwhelmingly positive feedback from the ML community, reflecting the pressing need for a collection of standardized datasets to evaluate models.
 As the repository becomes more widely used, community members have requested new features such as additional information about the datasets as well as new functions to select datasets given specific criteria.
 In this paper, we reviewed existing functionality and presented new enhancements that help facilitate the user and contributor's frictionless interaction with the repository.
 
 
-## Methods
+## Differentiating attributes
 
 ### New datasets with rich metadata
 
@@ -300,6 +303,13 @@ However, because the original source code was released under a [GPL-2 license](h
 Is detailed vignettes also make PMLB a helpful resource for new users to begin testing their methods with benchmark datasets.
 These vignettes contain straightforward examples of how to automate the tedious task of comparing different ML methods on all the benchmark datasets based on specified metrics.
 
+PMLB now includes original data rows with missing data (i.e., NA). 
+The core function of PMLB, fetch_data(), retains previous behavior (`dropna=True`) by default, which excludes all rows with missing data. 
+However, if the user chooses to treat the missing values differently, they can use fetch_data() with the option `dropna=False` to obtain the original dataset and apply their own removal or imputation method.
+Defining the neighborhood to be the datasets' metadata/characteristics space, we also enabled the option to select the nearest PMLB datasets given a data frame.
+This functionality would be helpful for users who would like to find PMLB datasets with similar characteristics to their own to make inference on their dataset, e.g., where to start the hyperparameter search.
+An API reference that details the user-facing functions and variables within the PMLB python library is included in the PMLB page.
+
 #### Pandas profiling reports 
 
 For each dataset, we use [pandas profiling](https://pandas-profiling.github.io/pandas-profiling/) to provide a report for exploratory analysis.
@@ -315,16 +325,6 @@ Alternatively, all the reports can be viewed on the repository's [gh-pages](http
 We have significantly reduced the repository size and started to track all data files with [Git Large File Storage](https://git-lfs.github.com/) for efficient cloning of the repository.
 With the Large File Storage service, we now store large files on the GitHub.com remote server (with no limits on data storage) and include text pointers to these files in our repository.
 Users who want to interact with the entire repository on their local machine only need git LFS [installed and set up for their user account](https://git-lfs.github.com/) or download the zip file from GitHub.
-
-### New functionality
-
-PMLB now includes original data rows with missing data (i.e., NA). 
-The core function of PMLB, fetch_data(), retains previous behavior (`dropna=True`) by default, which excludes all rows with missing data. 
-However, if the user chooses to treat the missing values differently, they can use fetch_data() with the option `dropna=False` to obtain the original dataset and apply their own removal or imputation method.
-
-Defining the neighborhood to be the datasets' metadata/characteristics space, we also enabled the option to select the nearest PMLB datasets given a data frame.
-This functionality would be helpful for users who would like to find PMLB datasets with similar characteristics to their own to make inference on their dataset, e.g., where to start the hyperparameter search.
-An API reference that details the user-facing functions and variables within the PMLB python library is included in the PMLB page.
 
 
 ## Results and Discussion

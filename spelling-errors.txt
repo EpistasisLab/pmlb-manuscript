@@ -1,4 +1,4 @@
-Benchmarking
+benchmarking
 bioinformatics
 Biostatistics
 bupa
@@ -21,6 +21,7 @@ LM
 moorejh
 OpenML
 PMLB
+pmlbr
 Praneel
 pre
 trang
