@@ -123,11 +123,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/c38a2cf0e20126d5e8734aecba667ff2277ebba6/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/8d3a0771def3f915545778be5079e67ac93ca3ae/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/c38a2cf0e20126d5e8734aecba667ff2277ebba6/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/8d3a0771def3f915545778be5079e67ac93ca3ae/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/c38a2cf0e20126d5e8734aecba667ff2277ebba6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/8d3a0771def3f915545778be5079e67ac93ca3ae/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -159,9 +159,9 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/c38a2cf0e20126d5e8734aecba667ff2277ebba6/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/8d3a0771def3f915545778be5079e67ac93ca3ae/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@c38a2cf](https://github.com/EpistasisLab/pmlb-manuscript/tree/c38a2cf0e20126d5e8734aecba667ff2277ebba6)
+from [EpistasisLab/pmlb-manuscript@8d3a077](https://github.com/EpistasisLab/pmlb-manuscript/tree/8d3a0771def3f915545778be5079e67ac93ca3ae)
 on September 22, 2020.
 </em></small>
 
@@ -300,7 +300,7 @@ Other checks included in the continuous integration workflow also help reduce bo
 In addition to the Python library, we have integrated an [R library](https://github.com/EpistasisLab/pmlb) -- both can be simply installed with `pip install pmlb` or `install.packages('pmlb')`, respectively.
 This R library has been adapted from a [separate repository](https://github.com/makeyourownmaker/pmlblite) that seemed to be unmaintained.
 However, because the original source code was released under a [GPL-2 license](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html), we were able to adapt the code to make it compatible with the new repository structure in this release and additional functionality.
-Is detailed vignettes also make PMLB a helpful resource for new users to begin testing their methods with benchmark datasets.
+Its detailed vignettes also make PMLB a helpful resource for new users to begin testing their methods with benchmark datasets.
 These vignettes contain straightforward examples of how to automate the tedious task of comparing different ML methods on all the benchmark datasets based on specified metrics.
 
 PMLB now includes original data rows with missing data (i.e., NA). 
@@ -326,8 +326,6 @@ We have significantly reduced the repository size and started to track all data 
 With the Large File Storage service, we now store large files on the GitHub.com remote server (with no limits on data storage) and include text pointers to these files in our repository.
 Users who want to interact with the entire repository on their local machine only need git LFS [installed and set up for their user account](https://git-lfs.github.com/) or download the zip file from GitHub.
 
-
-## Results and Discussion
 
 ## References {.page_break_before}
 
