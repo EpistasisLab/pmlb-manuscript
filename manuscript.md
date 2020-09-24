@@ -107,7 +107,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Jason H. Moore" />
 
-  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
+  <meta name="citation_author_institution" content="Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19087" />
 
   <meta name="citation_author_orcid" content="0000-0002-5015-1099" />
 
@@ -125,11 +125,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/912775400127f5188a641d55492f4c2b706147f7/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/cb60ffe95853fdad7510601cf03b32c76af97792/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/912775400127f5188a641d55492f4c2b706147f7/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/cb60ffe95853fdad7510601cf03b32c76af97792/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/912775400127f5188a641d55492f4c2b706147f7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/cb60ffe95853fdad7510601cf03b32c76af97792/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -161,9 +161,9 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/912775400127f5188a641d55492f4c2b706147f7/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/cb60ffe95853fdad7510601cf03b32c76af97792/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@9127754](https://github.com/EpistasisLab/pmlb-manuscript/tree/912775400127f5188a641d55492f4c2b706147f7)
+from [EpistasisLab/pmlb-manuscript@cb60ffe](https://github.com/EpistasisLab/pmlb-manuscript/tree/cb60ffe95853fdad7510601cf03b32c76af97792)
 on September 24, 2020.
 </em></small>
 
@@ -224,7 +224,9 @@ on September 24, 2020.
 
 + **Natasha L. Ray**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-6883-4624](https://orcid.org/0000-0001-6883-4624)<br>
+    [0000-0001-6883-4624](https://orcid.org/0000-0001-6883-4624)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [natray21](https://github.com/natray21)<br>
   <small>
      Princeton Day School, Princeton, NJ 08540
   </small>
@@ -248,7 +250,7 @@ on September 24, 2020.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [moorejh](https://twitter.com/moorejh)<br>
   <small>
-     Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
+     Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19087
      · Funded by National Institutes of Health Grant Nos. LM010098 and AI116794.
   </small>
 
