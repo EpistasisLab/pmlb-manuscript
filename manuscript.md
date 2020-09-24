@@ -10,7 +10,7 @@ author-meta:
 - Jason H. Moore
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-22'
+date-meta: '2020-09-24'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -29,9 +29,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="PMLB v1.0: an open source dataset collection for benchmarking machine learning methods" />
 
-  <meta name="dc.date" content="2020-09-22" />
+  <meta name="dc.date" content="2020-09-24" />
 
-  <meta name="citation_publication_date" content="2020-09-22" />
+  <meta name="citation_publication_date" content="2020-09-24" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -81,9 +81,11 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Praneel Chakraborty" />
 
-  <meta name="citation_author_institution" content="None" />
+  <meta name="citation_author_institution" content="School of Arts and Sciences, University of Pennsylvania, Philadelphia, PA 19104" />
 
-  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author_institution" content="Wharton School, University of Pennsylvania, Philadelphia, PA 19104" />
+
+  <meta name="citation_author_orcid" content="0000-0001-9586-0721" />
 
   <meta name="twitter:creator" content="@None" />
 
@@ -123,11 +125,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/8d3a0771def3f915545778be5079e67ac93ca3ae/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/060e4cbb370c4f8af9d1e241912a213e46b97fee/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/8d3a0771def3f915545778be5079e67ac93ca3ae/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/060e4cbb370c4f8af9d1e241912a213e46b97fee/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/8d3a0771def3f915545778be5079e67ac93ca3ae/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/060e4cbb370c4f8af9d1e241912a213e46b97fee/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -159,10 +161,10 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/8d3a0771def3f915545778be5079e67ac93ca3ae/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/060e4cbb370c4f8af9d1e241912a213e46b97fee/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@8d3a077](https://github.com/EpistasisLab/pmlb-manuscript/tree/8d3a0771def3f915545778be5079e67ac93ca3ae)
-on September 22, 2020.
+from [EpistasisLab/pmlb-manuscript@060e4cb](https://github.com/EpistasisLab/pmlb-manuscript/tree/060e4cbb370c4f8af9d1e241912a213e46b97fee)
+on September 24, 2020.
 </em></small>
 
 ## Authors
@@ -211,9 +213,13 @@ on September 22, 2020.
      Department of Computer Science & Engineering, Washington University in St. Louis, St. Louis, MO 63130
   </small>
 
-+ **Praneel Chakraborty**<br><br>
++ **Praneel Chakraborty**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-9586-0721](https://orcid.org/0000-0001-9586-0721)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [praneelc](https://github.com/praneelc)<br>
   <small>
-     None
+     School of Arts and Sciences, University of Pennsylvania, Philadelphia, PA 19104; Wharton School, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
 + **Natasha L. Ray**<br>

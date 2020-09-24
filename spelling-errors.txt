@@ -1,8 +1,8 @@
-benchmarking
+Benchmarking
 bioinformatics
 Biostatistics
 bupa
-cava
+Cava
 Chakraborty
 dataset
 datasets
@@ -20,9 +20,10 @@ LFS
 LM
 moorejh
 OpenML
-PMLB
+pmlb
 pmlbr
 Praneel
+praneelc
 pre
 trang
 unmaintained
