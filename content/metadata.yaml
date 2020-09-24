@@ -54,7 +54,7 @@ authors:
       - School of Arts and Sciences, University of Pennsylvania, Philadelphia, PA 19104
       - Wharton School, University of Pennsylvania, Philadelphia, PA 19104
   -
-    github:
+    github: natray21
     name: Natasha L. Ray
     initials: NLR
     orcid: 0000-0001-6883-4624
@@ -79,6 +79,6 @@ authors:
     twitter: moorejh
     email: jhmoore@upenn.edu
     affiliations:
-      - Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
+      - Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19087
     funders: National Institutes of Health Grant Nos. LM010098 and AI116794.
     symbol_str: "†"
