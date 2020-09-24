@@ -15,7 +15,6 @@ content/02.statement-of-need.md:4:benchmarking
 content/02.statement-of-need.md:4:datasets
 content/02.statement-of-need.md:4:pre
 content/02.statement-of-need.md:5:datasets
-content/02.statement-of-need.md:5:datasets
 content/02.statement-of-need.md:5:PMLB
 content/02.statement-of-need.md:7:datasets
 content/02.statement-of-need.md:7:PMLB
@@ -60,7 +59,7 @@ content/03.methods.md:28:dataset
 content/03.methods.md:31:EpistasisLab
 content/03.methods.md:31:pmlb
 content/03.methods.md:31:pmlb
-content/03.methods.md:31:pmlb
+content/03.methods.md:31:pmlbr
 content/03.methods.md:32:unmaintained
 content/03.methods.md:33:gpl
 content/03.methods.md:33:GPL

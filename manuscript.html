@@ -83,9 +83,9 @@
   <meta name="citation_fulltext_html_url" content="https://EpistasisLab.github.io/pmlb-manuscript/" />
   <meta name="citation_pdf_url" content="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/060e4cbb370c4f8af9d1e241912a213e46b97fee/" />
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/060e4cbb370c4f8af9d1e241912a213e46b97fee/" />
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/060e4cbb370c4f8af9d1e241912a213e46b97fee/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/912775400127f5188a641d55492f4c2b706147f7/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/912775400127f5188a641d55492f4c2b706147f7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/912775400127f5188a641d55492f4c2b706147f7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -99,9 +99,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://EpistasisLab.github.io/pmlb-manuscript/v/060e4cbb370c4f8af9d1e241912a213e46b97fee/">permalink</a>)
+(<a href="https://EpistasisLab.github.io/pmlb-manuscript/v/912775400127f5188a641d55492f4c2b706147f7/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/EpistasisLab/pmlb-manuscript/tree/060e4cbb370c4f8af9d1e241912a213e46b97fee">EpistasisLab/pmlb-manuscript@060e4cb</a>
+from <a href="https://github.com/EpistasisLab/pmlb-manuscript/tree/912775400127f5188a641d55492f4c2b706147f7">EpistasisLab/pmlb-manuscript@9127754</a>
 on September 24, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -187,18 +187,18 @@ These datasets cover a range of applications, from binary/multi-class classifica
 PMLB have an R interface (pmlbr) and a Python interface (pmlb) with detailed documentation that allow the user to access the datasets with a simple <code>fetch_data</code> function.</p>
 <h2 id="statement-of-need">Statement of need</h2>
 <p>Benchmarking is a standard practice to illustrate the strengths and weaknesses of algorithms regarding different problem characteristics.
-In machine learning, benchmarking often involves assessing the performance of the ML models, namely how well they predict labels for new samples (supervised learning) or detect patterns among samples with no pre-existing labels (unsupervised learning) in a group of benchmark datasets.
-PMLB provides this suite of datasets as well as the framework for conducting automatic evaluation of the different algorithms, i.e., how they perform on some or all of the datasets.</p>
-<p>The first release of PMLB received overwhelmingly positive feedback from the ML community, reflecting the pressing need for a collection of standardized datasets to evaluate models.
+In machine learning, benchmarking often involves assessing the performance of the ML models, namely how well they predict labels for new samples (supervised learning) or detect patterns among samples with no pre-existing labels (unsupervised learning) in a group of benchmark datasets <span class="citation" data-cites="yUdxG2w5 1GIvuquHs">[<a href="#ref-yUdxG2w5" role="doc-biblioref">1</a>,<a href="#ref-1GIvuquHs" role="doc-biblioref">2</a>]</span>.
+PMLB provides this suite of datasets as well as the framework for conducting automatic evaluation of the different algorithms.</p>
+<p>The first release of PMLB <span class="citation" data-cites="BnXfrP0P">[<a href="#ref-BnXfrP0P" role="doc-biblioref">3</a>]</span> received overwhelmingly positive feedback from the ML community, reflecting the pressing need for a collection of standardized datasets to evaluate models.
 As the repository becomes more widely used, community members have requested new features such as additional information about the datasets as well as new functions to select datasets given specific criteria.
 In this paper, we reviewed existing functionality and presented new enhancements that help facilitate the user and contributor’s frictionless interaction with the repository.</p>
 <h2 id="differentiating-attributes">Differentiating attributes</h2>
 <h3 id="new-datasets-with-rich-metadata">New datasets with rich metadata</h3>
 <p>Since its initial release, we have made major improvements in the collection of datasets as well as other helpful supporting features.
 We have redesigned the repository structure, and the collection now has benchmark datasets for regression problems (Fig. <a href="#fig:home-chart">1</a>).
-To fulfill several users’ <a href="https://github.com/EpistasisLab/penn-ml-benchmarks/issues/13">request</a>, each dataset also has a metadata.yaml file — an example of can be viewed <a href="https://github.com/EpistasisLab/penn-ml-benchmarks/blob/master/datasets/molecular_biology_promoters/metadata.yaml">here</a>.
+To fulfill several users’ <a href="https://github.com/EpistasisLab/penn-ml-benchmarks/issues/13">requests</a>, each dataset also has a metadata.yaml file — an example of can be viewed <a href="https://github.com/EpistasisLab/penn-ml-benchmarks/blob/master/datasets/molecular_biology_promoters/metadata.yaml">here</a>.
 As the name suggests, these files contain general information about the datasets themselves.
-Specifically, for each dataset, the metadata file includes the link to the original source of the dataset, a general description, the publication associated with the dataset generation, the type of problem (i.e., classification or regression), keywords (e.g., simulation, ecological, bioinformatics), and the features’ description and their coding (e.g., ‘non-promoter’= 0, ‘promoter’= 1).</p>
+Specifically, for each dataset, the metadata file includes a web address to the original source of the dataset, a general description, the publication associated with the dataset generation, the type of problem (i.e., classification or regression), keywords (e.g., simulation, ecological, bioinformatics), and the features’ description and their coding (e.g., ‘non-promoter’= 0, ‘promoter’= 1).</p>
 <div id="fig:home-chart" class="fignos">
 <figure>
 <img src="images/pmlb-home-chart.png" style="width:100.0%" alt="" /><figcaption><span>Figure 1:</span> Characteristics of datasets in the PMLB collection</figcaption>
@@ -216,14 +216,14 @@ The <code>CSV</code> button enables the download of the table with selected crit
 <img src="images/pmlb-home-tab.png" style="width:100.0%" alt="" /><figcaption><span>Figure 2:</span> The user can browse, sort, filter and search the summary statistics table</figcaption>
 </figure>
 </div>
-<p>On this main website, we also publish a detailed contribution guide with step-by-step instruction on how to get started.
+<p>On this main website, we also published a detailed contribution guide with step-by-step instruction on how to get started.
 Our goal was to simplify the steps newcomers need to take to contribute.
 Specifically, we have automated many of these steps with continuous integration using the GitHub Actions service.
 When a new dataset is added, its summary statistics (e.g., number of observations, number of classes, etc.) is automatically computed, its profiling report is generated (see below), a corresponding metadata template is added to the dataset folder, and the list of dataset names is updated.
 Other checks included in the continuous integration workflow also help reduce both the reviewer and contributor’s workload.</p>
-<p>In addition to the Python library, we have integrated an <a href="https://github.com/EpistasisLab/pmlb">R library</a> – both can be simply installed with <code>pip install pmlb</code> or <code>install.packages('pmlb')</code>, respectively.
+<p>In addition to the Python library, we have integrated an <a href="https://github.com/EpistasisLab/pmlb">R library</a> – both can be simply installed with <code>pip install pmlb</code> or <code>install.packages('pmlbr')</code>, respectively.
 This R library has been adapted from a <a href="https://github.com/makeyourownmaker/pmlblite">separate repository</a> that seemed to be unmaintained.
-However, because the original source code was released under a <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GPL-2 license</a>, we were able to adapt the code to make it compatible with the new repository structure in this release and additional functionality.
+However, because the original source code was released under a <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GPL-2 license</a>, we were able to adapt the code to make it compatible with the new repository structure in this release and offer additional functionality.
 Its detailed vignettes also make PMLB a helpful resource for new users to begin testing their methods with benchmark datasets.
 These vignettes contain straightforward examples of how to automate the tedious task of comparing different ML methods on all the benchmark datasets based on specified metrics.</p>
 <p>PMLB now includes original data rows with missing data (i.e., NA).
@@ -231,7 +231,7 @@ The core function of PMLB, fetch_data(), retains previous behavior (<code>dropna
 However, if the user chooses to treat the missing values differently, they can use fetch_data() with the option <code>dropna=False</code> to obtain the original dataset and apply their own removal or imputation method.
 Defining the neighborhood to be the datasets’ metadata/characteristics space, we also enabled the option to select the nearest PMLB datasets given a data frame.
 This functionality would be helpful for users who would like to find PMLB datasets with similar characteristics to their own to make inference on their dataset, e.g., where to start the hyperparameter search.
-An API reference that details the user-facing functions and variables within the PMLB python library is included in the PMLB page.</p>
+An API reference that details the user-facing functions and variables within the PMLB Python and R library is included in the PMLB page.</p>
 <h4 id="pandas-profiling-reports">Pandas profiling reports</h4>
 <p>For each dataset, we use <a href="https://pandas-profiling.github.io/pandas-profiling/">pandas profiling</a> to provide a report for exploratory analysis.
 In addition to descriptive statistics of the features as provided by <code>pandas.describe</code> (Python) or <code>skimr::skim</code> (R), pandas profiling gives a more extensive exploration of the dataset such as correlation structure among the features and flaggings of duplicate rows.
@@ -245,8 +245,25 @@ With the Large File Storage service, we now store large files on the GitHub.com 
 Users who want to interact with the entire repository on their local machine only need git LFS <a href="https://git-lfs.github.com/">installed and set up for their user account</a> or download the zip file from GitHub.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
-<div id="refs" role="doc-bibliography">
-
+<div id="refs" class="references hanging-indent" role="doc-bibliography">
+<div id="ref-yUdxG2w5">
+<p>1. <strong>Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition</strong> <br />
+J. Stallkamp, M. Schlipsing, J. Salmen, C. Igel<br />
+<em>Neural Networks</em> (2012-08) <a href="https://doi.org/f3z6dz">https://doi.org/f3z6dz</a> <br />
+DOI: <a href="https://doi.org/10.1016/j.neunet.2012.02.016">10.1016/j.neunet.2012.02.016</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22394690">22394690</a></p>
+</div>
+<div id="ref-1GIvuquHs">
+<p>2. <strong>An empirical comparison of supervised learning algorithms</strong> <br />
+Rich Caruana, Alexandru Niculescu-Mizil<br />
+<em>Association for Computing Machinery (ACM)</em> (2006) <a href="https://doi.org/bmstc2">https://doi.org/bmstc2</a> <br />
+DOI: <a href="https://doi.org/10.1145/1143844.1143865">10.1145/1143844.1143865</a></p>
+</div>
+<div id="ref-BnXfrP0P">
+<p>3. <strong>PMLB: a large benchmark suite for machine learning evaluation and comparison</strong> <br />
+Randal S. Olson, William La Cava, Patryk Orzechowski, Ryan J. Urbanowicz, Jason H. Moore<br />
+<em>BioData Mining</em> (2017-12-11) <a href="https://doi.org/gfrbw5">https://doi.org/gfrbw5</a> <br />
+DOI: <a href="https://doi.org/10.1186/s13040-017-0154-4">10.1186/s13040-017-0154-4</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29238404">29238404</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5725843">PMC5725843</a></p>
+</div>
 </div>
 <!-- default theme -->
 
