@@ -1,11 +1,13 @@
-benchmarking
+Benchmarking
 bioinformatics
 Biostatistics
 bupa
-Cava
+cava
 Chakraborty
+contributers
 dataset
 datasets
+dataset’s
 EpistasisLab
 flaggings
 frictionless
@@ -22,7 +24,6 @@ moorejh
 natray
 OpenML
 PMLB
-pmlbr
 Praneel
 praneelc
 pre
@@ -30,4 +31,3 @@ trang
 unmaintained
 Weixuan
 weixuanfu
-yaml

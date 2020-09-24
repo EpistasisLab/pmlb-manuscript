@@ -125,11 +125,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/cb60ffe95853fdad7510601cf03b32c76af97792/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/6bf54c242dca73011c750486a5175bdc621d4684/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/cb60ffe95853fdad7510601cf03b32c76af97792/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/6bf54c242dca73011c750486a5175bdc621d4684/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/cb60ffe95853fdad7510601cf03b32c76af97792/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/6bf54c242dca73011c750486a5175bdc621d4684/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -161,9 +161,9 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/cb60ffe95853fdad7510601cf03b32c76af97792/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/6bf54c242dca73011c750486a5175bdc621d4684/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@cb60ffe](https://github.com/EpistasisLab/pmlb-manuscript/tree/cb60ffe95853fdad7510601cf03b32c76af97792)
+from [EpistasisLab/pmlb-manuscript@6bf54c2](https://github.com/EpistasisLab/pmlb-manuscript/tree/6bf54c242dca73011c750486a5175bdc621d4684)
 on September 24, 2020.
 </em></small>
 
@@ -258,37 +258,36 @@ on September 24, 2020.
 
 ## Summary
 
-PMLB (Penn Machine Learning Benchmark) is an open source repository containing a curated collection of datasets for evaluating and comparing machine learning (ML) algorithms.
-Compiled from a broad range of existing ML benchmark collection, PMLB unified over 150 publicly available datasets from large repositories such as Kaggle and OpenML, enabling systematic assessment of different ML methods.
+PMLB (Penn Machine Learning Benchmark) is an open source data repository containing a curated collection of datasets for evaluating and comparing machine learning (ML) algorithms.
+Compiled from a broad range of existing ML benchmark collections, PMLB unifies over 150 publicly available datasets from diverse sources such as Kaggle and OpenML, enabling systematic assessment of different ML methods.
 These datasets cover a range of applications, from binary/multi-class classification to regression problems with combinations of categorical and continuous features.
-PMLB have an R interface (pmlbr) and a Python interface (pmlb) with detailed documentation that allow the user to access the datasets with a simple `fetch_data` function.
+PMLB has both a Python interface (`pmlb`) and an R interface (`pmlbr`), both with detailed documentation that allow the user to access datasets using a simple `fetch_data` function.
 
 
 ## Statement of need
 
-Benchmarking is a standard practice to illustrate the strengths and weaknesses of algorithms regarding different problem characteristics.
-In machine learning, benchmarking often involves assessing the performance of the ML models, namely how well they predict labels for new samples (supervised learning) or detect patterns among samples with no pre-existing labels (unsupervised learning) in a group of benchmark datasets [@doi:10.1016/j.neunet.2012.02.016; @doi:10.1145/1143844.1143865].
-PMLB provides this suite of datasets as well as the framework for conducting automatic evaluation of the different algorithms.
+Benchmarking is a standard practice to illustrate the strengths and weaknesses of algorithms with regards to different problem characteristics.
+In machine learning, benchmarking often involves assessing the performance of specific ML models &mdash; namely, how well they predict labels for new samples (supervised learning) or detect patterns among samples with no pre-existing labels (unsupervised learning) over a group of benchmark datasets [@doi:10.1016/j.neunet.2012.02.016; @doi:10.1145/1143844.1143865].
+PMLB was designed to provide a suite of such datasets, as well as the framework for conducting automatic evaluation of the different algorithms.
 
 The first release of PMLB [@doi:10.1186/s13040-017-0154-4] received overwhelmingly positive feedback from the ML community, reflecting the pressing need for a collection of standardized datasets to evaluate models.
-As the repository becomes more widely used, community members have requested new features such as additional information about the datasets as well as new functions to select datasets given specific criteria.
-In this paper, we reviewed existing functionality and presented new enhancements that help facilitate the user and contributor's frictionless interaction with the repository.
+As the repository becomes more widely used, community members have requested new features such as additional information about the datasets, as well as new functions to select datasets given specific criteria.
+In this paper, we review existing functionality and present new enhancements that help facilitate frictionless interaction with the repository, both from the perspective of database contributers and end-users.
 
 
 ## Differentiating attributes
 
 ### New datasets with rich metadata
 
-Since its initial release, we have made major improvements in the collection of datasets as well as other helpful supporting features.
-We have redesigned the repository structure, and the collection now has benchmark datasets for regression problems (Fig. {@fig:home-chart}).
-To fulfill several users' [requests](https://github.com/EpistasisLab/penn-ml-benchmarks/issues/13), each dataset also has a metadata.yaml file --- an example of can be viewed [here](https://github.com/EpistasisLab/penn-ml-benchmarks/blob/master/datasets/molecular_biology_promoters/metadata.yaml).
-As the name suggests, these files contain general information about the datasets themselves.
-Specifically, for each dataset, the metadata file includes a web address to the original source of the dataset, a general description, the publication associated with the dataset generation, the type of problem (i.e., classification or regression), keywords (e.g., simulation, ecological, bioinformatics), and the features’ description and their coding (e.g., ‘non-promoter’= 0,  ‘promoter’= 1).
+Since its initial release, we have made substantial improvements in the collection of new datasets as well as other helpful supporting features.
+Furthermore we have redesigned the repository structure, and PMLB now includes benchmark datasets for regression problems (Fig. {@fig:home-chart}).
+To fulfill [requests made by several users](https://github.com/EpistasisLab/penn-ml-benchmarks/issues/13), each dataset also includes a `metadata.yaml` file that contains general descriptive information about the dataset itself (an example can be viewed [here](https://github.com/EpistasisLab/penn-ml-benchmarks/blob/master/datasets/molecular_biology_promoters/metadata.yaml)).
+Specifically, for each dataset, the metadata file includes a web address to the original source of the dataset, a text description of the dataset's purpose, the publication associated with the dataset generation, the type of learning problem it was designed for (i.e., classification or regression), keywords (e.g., "simulation", "ecological", "bioinformatics"), and a description of individual features and their coding schema (e.g., ‘non-promoter’= 0,  ‘promoter’= 1).
 
 ![Characteristics of datasets in the PMLB collection](images/pmlb-home-chart.png){#fig:home-chart width="100%"}
 
 We are grateful for the open source contributors who have gradually increased the number of datasets with metadata.
-By carefully examining the data source and gather important information about the dataset, contributors have flagged serious issues with some datasets such as the [incorrect column](https://github.com/EpistasisLab/penn-ml-benchmarks/issues/54) assigned as 'target' in the [bupa](https://github.com/EpistasisLab/penn-ml-benchmarks/tree/master/datasets/bupa) dataset.
+By carefully examining the data source and gathering important information about the dataset, contributors have flagged serious issues with some datasets such as the [incorrect column](https://github.com/EpistasisLab/penn-ml-benchmarks/issues/54) assigned as 'target' in the [bupa](https://github.com/EpistasisLab/penn-ml-benchmarks/tree/master/datasets/bupa) dataset.
 
 ### User-friendly interfaces
 
