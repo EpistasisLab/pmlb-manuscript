@@ -125,11 +125,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/3de8f0e26704e6361c971aea6687ca4d86386c8b/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/7a08a89fc0746264bb4dbdf461c06df2b8741af4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/3de8f0e26704e6361c971aea6687ca4d86386c8b/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/7a08a89fc0746264bb4dbdf461c06df2b8741af4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/3de8f0e26704e6361c971aea6687ca4d86386c8b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/7a08a89fc0746264bb4dbdf461c06df2b8741af4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -161,9 +161,9 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/3de8f0e26704e6361c971aea6687ca4d86386c8b/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/7a08a89fc0746264bb4dbdf461c06df2b8741af4/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@3de8f0e](https://github.com/EpistasisLab/pmlb-manuscript/tree/3de8f0e26704e6361c971aea6687ca4d86386c8b)
+from [EpistasisLab/pmlb-manuscript@7a08a89](https://github.com/EpistasisLab/pmlb-manuscript/tree/7a08a89fc0746264bb4dbdf461c06df2b8741af4)
 on September 25, 2020.
 </em></small>
 
@@ -283,11 +283,12 @@ Since its previous major release (0.2) [@doi:10.1186/s13040-017-0154-4], we have
 Furthermore we have redesigned the repository structure, and PMLB now includes benchmark datasets for regression problems (Fig. {@fig:home-chart}).
 To fulfill [requests made by several users](https://github.com/EpistasisLab/penn-ml-benchmarks/issues/13), each dataset also includes a `metadata.yaml` file that contains general descriptive information about the dataset itself (an example can be viewed [here](https://github.com/EpistasisLab/penn-ml-benchmarks/blob/master/datasets/molecular_biology_promoters/metadata.yaml)).
 Specifically, for each dataset, the metadata file includes a web address to the original source of the dataset, a text description of the dataset's purpose, the publication associated with the dataset generation, the type of learning problem it was designed for (i.e., classification or regression), keywords (e.g., "simulation", "ecological", "bioinformatics"), and a description of individual features and their coding schema (e.g., ‘non-promoter’= 0,  ‘promoter’= 1).
+Metadata files are supported by a standardized format that is formalized using JSON-Schema (version `draft-07`) [@doi:10.1145/2872427.2883029] &mdash; upcoming releases of PMLB will include automated validation of datasets and metadata files to further improve ease of contribution and data accuracy.
 
 ![Characteristics of datasets in the PMLB collection](images/pmlb-home-chart.png){#fig:home-chart width="100%"}
 
-We are grateful for PMLB's open source contributors, who have gradually increased the number of datasets with metadata.
-By carefully examining the data source and gathering important information about the dataset, contributors have flagged serious issues with some datasets such as the [incorrect column](https://github.com/EpistasisLab/penn-ml-benchmarks/issues/54) assigned as 'target' in the [bupa](https://github.com/EpistasisLab/penn-ml-benchmarks/tree/master/datasets/bupa) dataset.
+Aside from the authors of this paper, a number of open source contributors have been invaluable in providing manually-curated metadata.
+Also, by carefully examining individual data sources and gathering pertinent information, contributors have flagged serious issues with some datasets, such as the [incorrect column](https://github.com/EpistasisLab/penn-ml-benchmarks/issues/54) being assigned as 'target' in the [bupa](https://github.com/EpistasisLab/penn-ml-benchmarks/tree/master/datasets/bupa) dataset.
 
 ### User-friendly interfaces
 
@@ -318,7 +319,7 @@ An [API reference guide](https://epistasislab.github.io/penn-ml-benchmarks/refer
 #### Pandas profiling reports 
 
 For each dataset, we use [`pandas-profiling`](https://pandas-profiling.github.io/pandas-profiling/) to generate summary statistic reports.
-In addition to the descriptive statistics provided by the commonly-used `pandas.describe` (Python) or `skimr::skim` (R) functions, `pandas-profiling` gives a more extensive exploration of the dataset, including correlation structure within the dataset and flagging of duplicate samples.
+In addition to the descriptive statistics provided by the commonly-used `pandas.describe` (Python) [@doi:10.25080/majora-92bf1922-00a] or `skimr::skim` (R) functions, `pandas-profiling` gives a more extensive exploration of the dataset, including correlation structure within the dataset and flagging of duplicate samples.
 Browsing a report allows users and contributors to easily assess dataset quality and make any necessary changes.
 For example, if a feature is flagged by `pandas-profiling` as having a single value replicated in all samples, it is likely that this feature is uninformative for ML analysis and should be removed from the dataset.
 
@@ -327,7 +328,7 @@ Alternatively, all reports can be viewed on the repository's [gh-pages](https://
 
 ### Efficiency
 
-We have significantly reduced the size of the PMLB source repository by using [Git Large File Storage (LFS)](https://git-lfs.github.com/) to efficiently track changes in large database source files.
+We have significantly reduced the size of the PMLB source repository by using [Git Large File Storage (LFS)](https://git-lfs.github.com/) to efficiently track changes in large database source files [@doi:10.1371/journal.pcbi.1004947].
 Users who would like to interact with the entire repository (including the complete database sources) locally can do so by either [installing Git LFS](https://git-lfs.github.com/) and cloning the PMLB repository, or by downloading a ZIP archive of [the repository](https://github.com/EpistasisLab/penn-ml-benchmarks) from GitHub in a web browser.
 
 

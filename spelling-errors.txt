@@ -15,6 +15,7 @@ gh
 GPL
 hyperparameter
 jdromano
+JSON
 Kaggle
 lacava
 LFS
