@@ -10,7 +10,7 @@ author-meta:
 - Jason H. Moore
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-25'
+date-meta: '2020-10-01'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -29,9 +29,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="PMLB v1.0: an open source dataset collection for benchmarking machine learning methods" />
 
-  <meta name="dc.date" content="2020-09-25" />
+  <meta name="dc.date" content="2020-10-01" />
 
-  <meta name="citation_publication_date" content="2020-09-25" />
+  <meta name="citation_publication_date" content="2020-10-01" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -125,11 +125,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/7a08a89fc0746264bb4dbdf461c06df2b8741af4/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/5efe21b3b7311743b0d975391b456fbc97f3a1ac/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/7a08a89fc0746264bb4dbdf461c06df2b8741af4/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/5efe21b3b7311743b0d975391b456fbc97f3a1ac/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/7a08a89fc0746264bb4dbdf461c06df2b8741af4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/5efe21b3b7311743b0d975391b456fbc97f3a1ac/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -161,10 +161,10 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/7a08a89fc0746264bb4dbdf461c06df2b8741af4/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/5efe21b3b7311743b0d975391b456fbc97f3a1ac/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@7a08a89](https://github.com/EpistasisLab/pmlb-manuscript/tree/7a08a89fc0746264bb4dbdf461c06df2b8741af4)
-on September 25, 2020.
+from [EpistasisLab/pmlb-manuscript@5efe21b](https://github.com/EpistasisLab/pmlb-manuscript/tree/5efe21b3b7311743b0d975391b456fbc97f3a1ac)
+on October 1, 2020.
 </em></small>
 
 ## Authors
@@ -262,6 +262,7 @@ PMLB (Penn Machine Learning Benchmark) is an open source data repository contain
 Compiled from a broad range of existing ML benchmark collections, PMLB unifies over 150 publicly available datasets from diverse sources such as Kaggle and OpenML, enabling systematic assessment of different ML methods.
 These datasets cover a range of applications, from binary/multi-class classification to regression problems with combinations of categorical and continuous features.
 PMLB has both a Python interface (`pmlb`) and an R interface (`pmlbr`), both with detailed documentation that allow the user to access datasets using a simple `fetch_data` function.
+PMLB also offers a comprehensive description of each dataset with pandas profiling and advanced functions to explore the dataset space such as `nearest_datasets` and `filter_datasets`, which allow for smoother user experience and handling of data.
 
 
 ## Statement of need

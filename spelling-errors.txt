@@ -2,7 +2,7 @@ benchmarking
 bioinformatics
 Biostatistics
 bupa
-Cava
+cava
 Chakraborty
 contributers
 dataset

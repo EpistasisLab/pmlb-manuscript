@@ -12,7 +12,7 @@
   <meta name="author" content="Natasha L. Ray" />
   <meta name="author" content="Weixuan Fu" />
   <meta name="author" content="Jason H. Moore" />
-  <meta name="dcterms.date" content="2020-09-25" />
+  <meta name="dcterms.date" content="2020-10-01" />
   <meta name="keywords" content="machine learning, benchmarking, open source" />
   <title>PMLB v1.0: an open source dataset collection for benchmarking machine learning methods</title>
   <style>
@@ -35,8 +35,8 @@
   <meta name="citation_title" content="PMLB v1.0: an open source dataset collection for benchmarking machine learning methods" />
   <meta property="og:title" content="PMLB v1.0: an open source dataset collection for benchmarking machine learning methods" />
   <meta property="twitter:title" content="PMLB v1.0: an open source dataset collection for benchmarking machine learning methods" />
-  <meta name="dc.date" content="2020-09-25" />
-  <meta name="citation_publication_date" content="2020-09-25" />
+  <meta name="dc.date" content="2020-10-01" />
+  <meta name="citation_publication_date" content="2020-10-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -83,9 +83,9 @@
   <meta name="citation_fulltext_html_url" content="https://EpistasisLab.github.io/pmlb-manuscript/" />
   <meta name="citation_pdf_url" content="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/7a08a89fc0746264bb4dbdf461c06df2b8741af4/" />
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/7a08a89fc0746264bb4dbdf461c06df2b8741af4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/7a08a89fc0746264bb4dbdf461c06df2b8741af4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/5efe21b3b7311743b0d975391b456fbc97f3a1ac/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/5efe21b3b7311743b0d975391b456fbc97f3a1ac/" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/5efe21b3b7311743b0d975391b456fbc97f3a1ac/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -99,10 +99,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://EpistasisLab.github.io/pmlb-manuscript/v/7a08a89fc0746264bb4dbdf461c06df2b8741af4/">permalink</a>)
+(<a href="https://EpistasisLab.github.io/pmlb-manuscript/v/5efe21b3b7311743b0d975391b456fbc97f3a1ac/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/EpistasisLab/pmlb-manuscript/tree/7a08a89fc0746264bb4dbdf461c06df2b8741af4">EpistasisLab/pmlb-manuscript@7a08a89</a>
-on September 25, 2020.
+from <a href="https://github.com/EpistasisLab/pmlb-manuscript/tree/5efe21b3b7311743b0d975391b456fbc97f3a1ac">EpistasisLab/pmlb-manuscript@5efe21b</a>
+on October 1, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -186,7 +186,8 @@ Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, 
 <p>PMLB (Penn Machine Learning Benchmark) is an open source data repository containing a curated collection of datasets for evaluating and comparing machine learning (ML) algorithms.
 Compiled from a broad range of existing ML benchmark collections, PMLB unifies over 150 publicly available datasets from diverse sources such as Kaggle and OpenML, enabling systematic assessment of different ML methods.
 These datasets cover a range of applications, from binary/multi-class classification to regression problems with combinations of categorical and continuous features.
-PMLB has both a Python interface (<code>pmlb</code>) and an R interface (<code>pmlbr</code>), both with detailed documentation that allow the user to access datasets using a simple <code>fetch_data</code> function.</p>
+PMLB has both a Python interface (<code>pmlb</code>) and an R interface (<code>pmlbr</code>), both with detailed documentation that allow the user to access datasets using a simple <code>fetch_data</code> function.
+PMLB also offers a comprehensive description of each dataset with pandas profiling and advanced functions to explore the dataset space such as <code>nearest_datasets</code> and <code>filter_datasets</code>, which allow for smoother user experience and handling of data.</p>
 <h2 id="statement-of-need">Statement of need</h2>
 <p>Benchmarking is a standard practice to illustrate the strengths and weaknesses of algorithms with regards to different problem characteristics.
 In machine learning, benchmarking often involves assessing the performance of specific ML models — namely, how well they predict labels for new samples (supervised learning) or detect patterns among samples with no pre-existing labels (unsupervised learning) over a group of benchmark datasets <span class="citation" data-cites="yUdxG2w5 1GIvuquHs">[<a href="#ref-yUdxG2w5" role="doc-biblioref">1</a>,<a href="#ref-1GIvuquHs" role="doc-biblioref">2</a>]</span>.
