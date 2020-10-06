@@ -6,11 +6,12 @@ author-meta:
 - Daniel J. Goldberg
 - Praneel Chakraborty
 - Natasha L. Ray
+- Daniel Himmelstein
 - Weixuan Fu
 - Jason H. Moore
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-01'
+date-meta: '2020-10-06'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -29,9 +30,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="PMLB v1.0: an open source dataset collection for benchmarking machine learning methods" />
 
-  <meta name="dc.date" content="2020-10-01" />
+  <meta name="dc.date" content="2020-10-06" />
 
-  <meta name="citation_publication_date" content="2020-10-01" />
+  <meta name="citation_publication_date" content="2020-10-06" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -97,6 +98,16 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@None" />
 
+  <meta name="citation_author" content="Daniel Himmelstein" />
+
+  <meta name="citation_author_institution" content="Related Sciences" />
+
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology &amp; Translational Therapeutics, University of Pennsylvania, Philadelphia, PA 19104" />
+
+  <meta name="citation_author_orcid" content="0000-0002-3012-7446" />
+
+  <meta name="twitter:creator" content="@dhimmel" />
+
   <meta name="citation_author" content="Weixuan Fu" />
 
   <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
@@ -125,11 +136,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/5efe21b3b7311743b0d975391b456fbc97f3a1ac/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/14ab032b14de16b9948e24622ba4fc8a2754b3e1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/5efe21b3b7311743b0d975391b456fbc97f3a1ac/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/14ab032b14de16b9948e24622ba4fc8a2754b3e1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/5efe21b3b7311743b0d975391b456fbc97f3a1ac/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/14ab032b14de16b9948e24622ba4fc8a2754b3e1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -161,10 +172,10 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/5efe21b3b7311743b0d975391b456fbc97f3a1ac/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/14ab032b14de16b9948e24622ba4fc8a2754b3e1/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@5efe21b](https://github.com/EpistasisLab/pmlb-manuscript/tree/5efe21b3b7311743b0d975391b456fbc97f3a1ac)
-on October 1, 2020.
+from [EpistasisLab/pmlb-manuscript@14ab032](https://github.com/EpistasisLab/pmlb-manuscript/tree/14ab032b14de16b9948e24622ba4fc8a2754b3e1)
+on October 6, 2020.
 </em></small>
 
 ## Authors
@@ -229,6 +240,17 @@ on October 1, 2020.
     [natray21](https://github.com/natray21)<br>
   <small>
      Princeton Day School, Princeton, NJ 08540
+  </small>
+
++ **Daniel Himmelstein**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [dhimmel](https://github.com/dhimmel)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [dhimmel](https://twitter.com/dhimmel)<br>
+  <small>
+     Related Sciences; Department of Systems Pharmacology & Translational Therapeutics, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
 + **Weixuan Fu**<br>
