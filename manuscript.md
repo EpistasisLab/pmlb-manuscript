@@ -3,6 +3,7 @@ author-meta:
 - Trang T. Le
 - William La Cava
 - Joseph D. Romano
+- John T. Gregg
 - Daniel J. Goldberg
 - Praneel Chakraborty
 - Natasha L. Ray
@@ -11,7 +12,7 @@ author-meta:
 - Jason H. Moore
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-06'
+date-meta: '2020-10-07'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -30,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="PMLB v1.0: an open source dataset collection for benchmarking machine learning methods" />
 
-  <meta name="dc.date" content="2020-10-06" />
+  <meta name="dc.date" content="2020-10-07" />
 
-  <meta name="citation_publication_date" content="2020-10-06" />
+  <meta name="citation_publication_date" content="2020-10-07" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -71,6 +72,14 @@ header-includes: '<!--
   <meta name="citation_author_orcid" content="0000-0002-7999-4399" />
 
   <meta name="twitter:creator" content="@jdromano2" />
+
+  <meta name="citation_author" content="John T. Gregg" />
+
+  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA 19087, USA." />
+
+  <meta name="citation_author_orcid" content="0000-0002-2619-3440" />
+
+  <meta name="twitter:creator" content="@None" />
 
   <meta name="citation_author" content="Daniel J. Goldberg" />
 
@@ -136,11 +145,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/14ab032b14de16b9948e24622ba4fc8a2754b3e1/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/510f488ff2dc99f2b44bff667c25e19a67e8aeaa/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/14ab032b14de16b9948e24622ba4fc8a2754b3e1/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/510f488ff2dc99f2b44bff667c25e19a67e8aeaa/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/14ab032b14de16b9948e24622ba4fc8a2754b3e1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/510f488ff2dc99f2b44bff667c25e19a67e8aeaa/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -172,10 +181,10 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/14ab032b14de16b9948e24622ba4fc8a2754b3e1/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/510f488ff2dc99f2b44bff667c25e19a67e8aeaa/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@14ab032](https://github.com/EpistasisLab/pmlb-manuscript/tree/14ab032b14de16b9948e24622ba4fc8a2754b3e1)
-on October 6, 2020.
+from [EpistasisLab/pmlb-manuscript@510f488](https://github.com/EpistasisLab/pmlb-manuscript/tree/510f488ff2dc99f2b44bff667c25e19a67e8aeaa)
+on October 7, 2020.
 </em></small>
 
 ## Authors
@@ -213,6 +222,15 @@ on October 6, 2020.
     [jdromano2](https://twitter.com/jdromano2)<br>
   <small>
      Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104; Center of Excellence in Environmental Toxicology, University of Pennsylvania, Philadelphia, PA 19104
+  </small>
+
++ **John T. Gregg**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-2619-3440](https://orcid.org/0000-0002-2619-3440)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [greggj2016](https://github.com/greggj2016)<br>
+  <small>
+     Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA 19087, USA.
   </small>
 
 + **Daniel J. Goldberg**<br>

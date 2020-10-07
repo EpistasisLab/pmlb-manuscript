@@ -1,8 +1,8 @@
-Benchmarking
+benchmarking
 bioinformatics
 Biostatistics
 bupa
-Cava
+cava
 Chakraborty
 contributers
 dataset
@@ -14,6 +14,7 @@ frictionless
 Fu
 gh
 GPL
+greggj
 Himmelstein
 hyperparameter
 jdromano
