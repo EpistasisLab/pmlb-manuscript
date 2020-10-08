@@ -63,7 +63,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_EXISTS" ]; then
   fi
   if [ -d output/images ]; then rm -rf output/images; fi  # if images is a directory, remove it
   cp -R -L content/images output/
-  docker run \
+  sudo docker run \
     --rm \
     --shm-size=1g \
     --volume="$(pwd)/output:/converted/" \
