@@ -5,7 +5,8 @@ bupa
 cava
 Chakraborty
 contributers
-dataset
+curation
+Dataset
 datasets
 dataset’s
 dhimmel
@@ -16,10 +17,8 @@ gh
 GPL
 greggj
 Himmelstein
-hyperparameter
 jdromano
 JSON
-Kaggle
 lacava
 LFS
 LM
@@ -32,8 +31,10 @@ PMLB’s
 Praneel
 praneelc
 pre
-trang
+preprocessing
+Trang
 Translational
+UCI
 unmaintained
 Weixuan
 weixuanfu
