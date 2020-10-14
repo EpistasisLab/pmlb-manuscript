@@ -1,8 +1,8 @@
-benchmarking
+Benchmarking
 bioinformatics
 Biostatistics
 bupa
-cava
+Cava
 Chakraborty
 curation
 Dataset
@@ -29,7 +29,7 @@ Praneel
 praneelc
 pre
 preprocessing
-trang
+Trang
 Translational
 UCI
 unmaintained

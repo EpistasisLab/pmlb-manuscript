@@ -145,11 +145,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/2b7490d60019534fc0b736a66033b1125a33cfd2/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/4fe83884431c986095215dde2c7084133ad5e571/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/2b7490d60019534fc0b736a66033b1125a33cfd2/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/4fe83884431c986095215dde2c7084133ad5e571/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/2b7490d60019534fc0b736a66033b1125a33cfd2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/4fe83884431c986095215dde2c7084133ad5e571/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -181,9 +181,9 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/2b7490d60019534fc0b736a66033b1125a33cfd2/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/4fe83884431c986095215dde2c7084133ad5e571/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@2b7490d](https://github.com/EpistasisLab/pmlb-manuscript/tree/2b7490d60019534fc0b736a66033b1125a33cfd2)
+from [EpistasisLab/pmlb-manuscript@4fe8388](https://github.com/EpistasisLab/pmlb-manuscript/tree/4fe83884431c986095215dde2c7084133ad5e571)
 on October 14, 2020.
 </em></small>
 
@@ -357,7 +357,7 @@ This functionality is helpful for users who wish to find PMLB datasets with simi
 
 API reference guides that detail all user-facing functions and variables in PMLB's [Python](https://epistasislab.github.io/pmlb/python-ref.html) and [R](https://epistasislab.github.io/pmlb/r-ref.html) libraries is included on the PMLB website.
 
-#### Pandas profiling reports 
+### Pandas profiling reports 
 
 For each dataset, we use [`pandas-profiling`](https://pandas-profiling.github.io/pandas-profiling/) to generate summary statistic reports.
 In addition to the descriptive statistics provided by the commonly-used `pandas.describe` (Python) [@doi:10.25080/majora-92bf1922-00a] or `skimr::skim` (R) functions, `pandas-profiling` gives a more extensive exploration of the dataset, including correlation structure within the dataset and flagging of duplicate samples.
