@@ -1,4 +1,4 @@
-benchmarking
+Benchmarking
 bioinformatics
 Biostatistics
 bupa
@@ -6,7 +6,7 @@ Cava
 Chakraborty
 contributers
 curation
-Dataset
+dataset
 datasets
 dataset’s
 dhimmel
