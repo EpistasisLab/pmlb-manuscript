@@ -94,9 +94,9 @@
   <meta name="citation_fulltext_html_url" content="https://EpistasisLab.github.io/pmlb-manuscript/" />
   <meta name="citation_pdf_url" content="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/a32ac65c14016a36b88a4f5e45067712c0e82219/" />
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/a32ac65c14016a36b88a4f5e45067712c0e82219/" />
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/a32ac65c14016a36b88a4f5e45067712c0e82219/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/08b2671dcf4834c8f46303a5a12e40d7a02d9f25/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/08b2671dcf4834c8f46303a5a12e40d7a02d9f25/" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/08b2671dcf4834c8f46303a5a12e40d7a02d9f25/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -110,9 +110,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://EpistasisLab.github.io/pmlb-manuscript/v/a32ac65c14016a36b88a4f5e45067712c0e82219/">permalink</a>)
+(<a href="https://EpistasisLab.github.io/pmlb-manuscript/v/08b2671dcf4834c8f46303a5a12e40d7a02d9f25/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/EpistasisLab/pmlb-manuscript/tree/a32ac65c14016a36b88a4f5e45067712c0e82219">EpistasisLab/pmlb-manuscript@a32ac65</a>
+from <a href="https://github.com/EpistasisLab/pmlb-manuscript/tree/08b2671dcf4834c8f46303a5a12e40d7a02d9f25">EpistasisLab/pmlb-manuscript@08b2671</a>
 on October 14, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -241,7 +241,7 @@ Metadata files are supported by a standardized format that is formalized using J
 <p>Aside from the authors of this paper, a number of open source contributors have been invaluable in providing manually-curated metadata.
 In addition, careful examination by open source contributors have led to important bug fixes, such as a <a href="https://github.com/EpistasisLab/pmlb/issues/54">correction to the target column</a> in the <a href="https://github.com/EpistasisLab/pmlb/tree/master/datasets/bupa">bupa</a> dataset.</p>
 <h3 id="user-friendly-interfaces">User-friendly interfaces</h3>
-<p>On <a href="https://epistasislab.github.io/pmlb/">PMLB’s home page</a>, users can now browse, sort, filter, and search datasets from a lookup table of datasets with summary statistics (Fig. <a href="#fig:home-tab">2</a>).
+<p>On PMLB’s <a href="https://epistasislab.github.io/pmlb/">home page</a>, users can now browse, sort, filter, and search datasets from a lookup table of datasets with summary statistics (Fig. <a href="#fig:home-tab">2</a>).
 To select datasets with numerical values for specific metaparameters (e.g., number of observations, number of features, class balance, etc.), users can type ranges in the box at the bottom of each numeric column in the format <code>low ... high</code>.
 For example, if the user wants to view all classification datasets with 80 to 100 observations, they would select <code>classification</code> at the bottom of the <code>Task</code> column, and type <code>80 ... 100</code> at the bottom of the <code>n_observations</code> column.
 The <code>CSV</code> button allows the user to download the table’s contents with any active filters applied.</p>
@@ -253,16 +253,13 @@ The <code>CSV</code> button allows the user to download the table’s contents w
 <p>On the website, we have also published a detailed but concise <a href="https://epistasislab.github.io/pmlb/contributing.html">contribution guide</a> with step-by-step instructions on how to add new datasets, submit edits for existing datasets, or improve the provided Python or R code.
 When a new dataset is added, summary statistics (e.g., number of observations, number of classes, etc.) are automatically computed, a profiling report is generated (see below), a corresponding metadata template is added to the dataset folder, and PMLB’s list of available dataset names is updated.
 Other checks included in the continuous integration workflow help to reduce the amount of work required from both contributers and code reviewers.</p>
-<p>In addition to the Python interface for PMLB, we have included an <a href="https://github.com/EpistasisLab/pmlbr">R library</a>, both of which can be installed with a single command — <code>pip install pmlb</code> or <code>install.packages('pmlbr')</code>, respectively.
+<p>In addition to the Python interface for PMLB, we have included an <a href="https://github.com/EpistasisLab/pmlbr">R library</a>, both of which can be installed with a single command.
 The R library has been adapted from a <a href="https://github.com/makeyourownmaker/pmlblite">separate repository</a> that is currently unmaintained, but released under the <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GPL-2 license</a>.
 However, because the original source code was released under the <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU General Public License, version 2</a>.
 The R library also includes a number of detailed “vignette” documents to help new users learn how to use the software.</p>
 <p>PMLB now includes original data rows with missing data (i.e., NA).
-The core function of PMLB, <code>fetch_data()</code>, retains previous behavior by default, which excludes all rows with missing data (<code>dropna=True</code>).
-However, if the user chooses to treat the missing values differently, they can use <code>fetch_data()</code> with the option <code>dropna=False</code> to obtain the original dataset and apply their own removal or imputation method.</p>
-<p>The new version of PMLB also allows the user to select datasets most similar to one of their own using the <code>nearest_datasets()</code> function.
-Here, the similarity between datasets is configurable to any number of metadata characteristics.
-By default, the names of the nearest datasets are returned based on the number of samples and features.
+The new version of PMLB also allows the user to select datasets most similar to one of their own using the <code>nearest_datasets</code> function.
+Here, the similarity between datasets is configurable to any number of metadata characteristics (e.g., number of samples, number of features, number of target classes, etc.).
 This functionality is helpful for users who wish to find PMLB datasets with similar characteristics to their own in order to test or optimize methods (e.g. hyperparameter tuning) for their desired problem without the risk of over-fitting to their dataset.</p>
 <p>An <a href="https://epistasislab.github.io/pmlb/reference.html">API reference guide</a> that details all user-facing functions and variables in PMLB’s Python and R libraries is included on the PMLB website.</p>
 <h4 id="pandas-profiling-reports">Pandas profiling reports</h4>
@@ -272,7 +269,7 @@ Browsing a report allows users and contributors to easily assess dataset quality
 For example, if a feature is flagged by <code>pandas-profiling</code> as having a single value replicated in all samples, it is likely that this feature is uninformative for ML analysis and should be removed from the dataset.</p>
 <p>The profiling reports can be accessed by clicking on the dataset name in the interactive data table or the data point in the interactive chart on the PMLB website.
 Alternatively, all reports can be viewed on the repository’s <a href="https://github.com/EpistasisLab/pmlb/tree/gh-pages/profile">gh-pages</a> branch, or generated manually by users on their local computing resources.</p>
-<h3 id="efficiency">Efficiency</h3>
+<h3 id="space-efficiency">Space efficiency</h3>
 <p>We have significantly reduced the size of the PMLB source repository by using <a href="https://git-lfs.github.com/">Git Large File Storage (LFS)</a> to efficiently track changes in large database source files <span class="citation" data-cites="kEX5dgzK">[<a href="#ref-kEX5dgzK" role="doc-biblioref">7</a>]</span>.
 Users who would like to interact with the entire repository (including the complete database sources) locally can do so by either <a href="https://git-lfs.github.com/">installing Git LFS</a> and cloning the PMLB repository, or by downloading a ZIP archive of <a href="https://github.com/EpistasisLab/pmlb">the repository</a> from GitHub in a web browser.</p>
 <h2 class="page_break_before" id="references">References</h2>
@@ -288,7 +285,7 @@ DOI: <a href="https://doi.org/10.1145/2641190.2641198">10.1145/2641190.2641198</
 <p>2. <strong>Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition</strong> <br />
 J. Stallkamp, M. Schlipsing, J. Salmen, C. Igel<br />
 <em>Neural Networks</em> (2012-08) <a href="https://doi.org/f3z6dz">https://doi.org/f3z6dz</a> <br />
-DOI: <a href="https://doi.org/10.1016/j.neunet.2012.02.016">10.1016/j.neunet.2012.02.016</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22394690">22394690</a></p>
+DOI: <a href="https://doi.org/10.1016/j.neunet.2012.02.016">10.1016/j.neunet.2012.02.016</a></p>
 </div>
 <div id="ref-1GIvuquHs">
 <p>3. <strong>An empirical comparison of supervised learning algorithms</strong> <br />
