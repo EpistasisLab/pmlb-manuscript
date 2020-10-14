@@ -2,7 +2,7 @@ benchmarking
 bioinformatics
 Biostatistics
 bupa
-cava
+Cava
 Chakraborty
 contributers
 curation
@@ -32,7 +32,7 @@ Praneel
 praneelc
 pre
 preprocessing
-Trang
+trang
 Translational
 UCI
 unmaintained

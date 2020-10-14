@@ -12,7 +12,7 @@ author-meta:
 - Jason H. Moore
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-09'
+date-meta: '2020-10-14'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="PMLB v1.0: an open source dataset collection for benchmarking machine learning methods" />
 
-  <meta name="dc.date" content="2020-10-09" />
+  <meta name="dc.date" content="2020-10-14" />
 
-  <meta name="citation_publication_date" content="2020-10-09" />
+  <meta name="citation_publication_date" content="2020-10-14" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -145,11 +145,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/ebd0f099769fb5d5b407243902cca1977d3b5696/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/a32ac65c14016a36b88a4f5e45067712c0e82219/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/ebd0f099769fb5d5b407243902cca1977d3b5696/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/a32ac65c14016a36b88a4f5e45067712c0e82219/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/ebd0f099769fb5d5b407243902cca1977d3b5696/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/a32ac65c14016a36b88a4f5e45067712c0e82219/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -181,10 +181,10 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/ebd0f099769fb5d5b407243902cca1977d3b5696/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/a32ac65c14016a36b88a4f5e45067712c0e82219/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@ebd0f09](https://github.com/EpistasisLab/pmlb-manuscript/tree/ebd0f099769fb5d5b407243902cca1977d3b5696)
-on October 9, 2020.
+from [EpistasisLab/pmlb-manuscript@a32ac65](https://github.com/EpistasisLab/pmlb-manuscript/tree/a32ac65c14016a36b88a4f5e45067712c0e82219)
+on October 14, 2020.
 </em></small>
 
 ## Authors
@@ -324,25 +324,25 @@ In this paper, we review the original functionality and present new enhancements
 
 Since its previous major release (0.2) [@doi:10.1186/s13040-017-0154-4], we have made substantial improvements in the collection of new datasets as well as other helpful supporting features.
 Furthermore we have redesigned the repository structure, and PMLB now includes benchmark datasets for regression problems (Fig. {@fig:home-chart}).
-To fulfill [requests made by several users](https://github.com/EpistasisLab/penn-ml-benchmarks/issues/13), each dataset also includes a `metadata.yaml` file that contains general descriptive information about the dataset itself (an example can be viewed [here](https://github.com/EpistasisLab/penn-ml-benchmarks/blob/master/datasets/molecular_biology_promoters/metadata.yaml)).
+To fulfill [requests made by several users](https://github.com/EpistasisLab/pmlb/issues/13), each dataset also includes a `metadata.yaml` file that contains general descriptive information about the dataset itself (an example can be viewed [here](https://github.com/EpistasisLab/pmlb/blob/master/datasets/molecular_biology_promoters/metadata.yaml)).
 Specifically, for each dataset, the metadata file includes a web address to the original source of the dataset, a text description of the dataset's purpose, the publication associated with the dataset generation, the type of learning problem it was designed for (i.e., classification or regression), keywords (e.g., "simulation", "ecological", "bioinformatics"), and a description of individual features and their coding schema (e.g., ‘non-promoter’= 0,  ‘promoter’= 1).
 Metadata files are supported by a standardized format that is formalized using JSON-Schema (version `draft-07`) [@doi:10.1145/2872427.2883029] &mdash; upcoming releases of PMLB will include automated validation of datasets and metadata files to further improve ease of contribution and data accuracy.
 
 ![Characteristics of datasets in the PMLB collection](images/pmlb-home-chart.png){#fig:home-chart width="100%"}
 
 Aside from the authors of this paper, a number of open source contributors have been invaluable in providing manually-curated metadata.
-In addition, careful examination by open source contributors have led to important bug fixes, such as a [correction to the target column](https://github.com/EpistasisLab/penn-ml-benchmarks/issues/54) in the [bupa](https://github.com/EpistasisLab/penn-ml-benchmarks/tree/master/datasets/bupa) dataset.
+In addition, careful examination by open source contributors have led to important bug fixes, such as a [correction to the target column](https://github.com/EpistasisLab/pmlb/issues/54) in the [bupa](https://github.com/EpistasisLab/pmlb/tree/master/datasets/bupa) dataset.
 
 ### User-friendly interfaces
 
-On [PMLB's home page](https://epistasislab.github.io/penn-ml-benchmarks/), users can now browse, sort, filter, and search datasets from a lookup table of datasets with summary statistics (Fig. {@fig:home-tab}).
+On [PMLB's home page](https://epistasislab.github.io/pmlb/), users can now browse, sort, filter, and search datasets from a lookup table of datasets with summary statistics (Fig. {@fig:home-tab}).
 To select datasets with numerical values for specific metaparameters (e.g., number of observations, number of features, class balance, etc.), users can type ranges in the box at the bottom of each numeric column in the format `low ... high`.
 For example, if the user wants to view all classification datasets with 80 to 100 observations, they would select `classification` at the bottom of the `Task` column, and type `80 ... 100` at the bottom of the `n_observations` column.
 The `CSV` button allows the user to download the table's contents with any active filters applied.
 
 ![Dataset summary statistics table, with advanced searching, filtering, and sorting features](images/pmlb-home-tab.png){#fig:home-tab width="100%"}
 
-On the website, we have also published a detailed but concise [contribution guide](https://epistasislab.github.io/penn-ml-benchmarks/contributing.html) with step-by-step instructions on how to add new datasets, submit edits for existing datasets, or improve the provided Python or R code.
+On the website, we have also published a detailed but concise [contribution guide](https://epistasislab.github.io/pmlb/contributing.html) with step-by-step instructions on how to add new datasets, submit edits for existing datasets, or improve the provided Python or R code.
 When a new dataset is added, summary statistics (e.g., number of observations, number of classes, etc.) are automatically computed, a profiling report is generated (see below), a corresponding metadata template is added to the dataset folder, and PMLB's list of available dataset names is updated.
 Other checks included in the continuous integration workflow help to reduce the amount of work required from both contributers and code reviewers.
 
@@ -360,7 +360,7 @@ Here, the similarity between datasets is configurable to any number of metadata 
 By default, the names of the nearest datasets are returned based on the number of samples and features.
 This functionality is helpful for users who wish to find PMLB datasets with similar characteristics to their own in order to test or optimize methods (e.g. hyperparameter tuning) for their desired problem without the risk of over-fitting to their dataset. 
 
-An [API reference guide](https://epistasislab.github.io/penn-ml-benchmarks/reference.html) that details all user-facing functions and variables in PMLB's Python and R libraries is included on the PMLB website.
+An [API reference guide](https://epistasislab.github.io/pmlb/reference.html) that details all user-facing functions and variables in PMLB's Python and R libraries is included on the PMLB website.
 
 #### Pandas profiling reports 
 
@@ -370,12 +370,12 @@ Browsing a report allows users and contributors to easily assess dataset quality
 For example, if a feature is flagged by `pandas-profiling` as having a single value replicated in all samples, it is likely that this feature is uninformative for ML analysis and should be removed from the dataset.
 
 The profiling reports can be accessed by clicking on the dataset name in the interactive data table or the data point in the interactive chart on the PMLB website.
-Alternatively, all reports can be viewed on the repository's [gh-pages](https://github.com/EpistasisLab/penn-ml-benchmarks/tree/gh-pages/profile) branch, or generated manually by users on their local computing resources.
+Alternatively, all reports can be viewed on the repository's [gh-pages](https://github.com/EpistasisLab/pmlb/tree/gh-pages/profile) branch, or generated manually by users on their local computing resources.
 
 ### Efficiency
 
 We have significantly reduced the size of the PMLB source repository by using [Git Large File Storage (LFS)](https://git-lfs.github.com/) to efficiently track changes in large database source files [@doi:10.1371/journal.pcbi.1004947].
-Users who would like to interact with the entire repository (including the complete database sources) locally can do so by either [installing Git LFS](https://git-lfs.github.com/) and cloning the PMLB repository, or by downloading a ZIP archive of [the repository](https://github.com/EpistasisLab/penn-ml-benchmarks) from GitHub in a web browser.
+Users who would like to interact with the entire repository (including the complete database sources) locally can do so by either [installing Git LFS](https://git-lfs.github.com/) and cloning the PMLB repository, or by downloading a ZIP archive of [the repository](https://github.com/EpistasisLab/pmlb) from GitHub in a web browser.
 
 
 ## References {.page_break_before}
