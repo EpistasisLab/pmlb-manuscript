@@ -49,7 +49,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Trang T. Le" />
 
-  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
+  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
 
   <meta name="citation_author_orcid" content="0000-0003-3737-6565" />
 
@@ -57,7 +57,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="William La Cava" />
 
-  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
+  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
 
   <meta name="citation_author_orcid" content="0000-0002-1332-2960" />
 
@@ -65,7 +65,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Joseph D. Romano" />
 
-  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
+  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
 
   <meta name="citation_author_institution" content="Center of Excellence in Environmental Toxicology, University of Pennsylvania, Philadelphia, PA 19104" />
 
@@ -75,7 +75,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="John T. Gregg" />
 
-  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA 19087, USA." />
+  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
 
   <meta name="citation_author_orcid" content="0000-0002-2619-3440" />
 
@@ -119,7 +119,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Weixuan Fu" />
 
-  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
+  <meta name="citation_author_institution" content="Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
 
   <meta name="citation_author_orcid" content="0000-0002-6434-5468" />
 
@@ -127,7 +127,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Jason H. Moore" />
 
-  <meta name="citation_author_institution" content="Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19087" />
+  <meta name="citation_author_institution" content="Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104" />
 
   <meta name="citation_author_orcid" content="0000-0002-5015-1099" />
 
@@ -145,11 +145,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://EpistasisLab.github.io/pmlb-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/08b2671dcf4834c8f46303a5a12e40d7a02d9f25/" />
+  <link rel="alternate" type="text/html" href="https://EpistasisLab.github.io/pmlb-manuscript/v/607c04f5bc716ed482c668d7a3e09fc639f25279/" />
 
-  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/08b2671dcf4834c8f46303a5a12e40d7a02d9f25/" />
+  <meta name="manubot_html_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/607c04f5bc716ed482c668d7a3e09fc639f25279/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/08b2671dcf4834c8f46303a5a12e40d7a02d9f25/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://EpistasisLab.github.io/pmlb-manuscript/v/607c04f5bc716ed482c668d7a3e09fc639f25279/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -181,9 +181,9 @@ title: 'PMLB v1.0: an open source dataset collection for benchmarking machine le
 
 <small><em>
 This manuscript
-([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/08b2671dcf4834c8f46303a5a12e40d7a02d9f25/))
+([permalink](https://EpistasisLab.github.io/pmlb-manuscript/v/607c04f5bc716ed482c668d7a3e09fc639f25279/))
 was automatically generated
-from [EpistasisLab/pmlb-manuscript@08b2671](https://github.com/EpistasisLab/pmlb-manuscript/tree/08b2671dcf4834c8f46303a5a12e40d7a02d9f25)
+from [EpistasisLab/pmlb-manuscript@607c04f](https://github.com/EpistasisLab/pmlb-manuscript/tree/607c04f5bc716ed482c668d7a3e09fc639f25279)
 on October 14, 2020.
 </em></small>
 
@@ -199,7 +199,7 @@ on October 14, 2020.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [trang1618](https://twitter.com/trang1618)<br>
   <small>
-     Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
+     Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
 + **William La Cava**<br>
@@ -210,7 +210,7 @@ on October 14, 2020.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [w_la_cava](https://twitter.com/w_la_cava)<br>
   <small>
-     Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
+     Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
 + **Joseph D. Romano**<br>
@@ -221,7 +221,7 @@ on October 14, 2020.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [jdromano2](https://twitter.com/jdromano2)<br>
   <small>
-     Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104; Center of Excellence in Environmental Toxicology, University of Pennsylvania, Philadelphia, PA 19104
+     Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA 19104; Center of Excellence in Environmental Toxicology, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
 + **John T. Gregg**<br>
@@ -230,7 +230,7 @@ on October 14, 2020.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [greggj2016](https://github.com/greggj2016)<br>
   <small>
-     Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA 19087, USA.
+     Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
 + **Daniel J. Goldberg**<br>
@@ -279,7 +279,7 @@ on October 14, 2020.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [weixuanfu](https://twitter.com/weixuanfu)<br>
   <small>
-     Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
+     Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
   </small>
 
 + **Jason H. Moore**<br>
@@ -290,7 +290,7 @@ on October 14, 2020.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [moorejh](https://twitter.com/moorejh)<br>
   <small>
-     Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19087
+     Institute for Biomedical Informatics, University of Pennsylvania, Philadelphia, PA 19104
      · Funded by National Institutes of Health Grant Nos. LM010098 and AI116794.
   </small>
 

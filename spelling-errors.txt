@@ -1,8 +1,8 @@
-Benchmarking
+benchmarking
 bioinformatics
 Biostatistics
 bupa
-Cava
+cava
 Chakraborty
 contributers
 curation
